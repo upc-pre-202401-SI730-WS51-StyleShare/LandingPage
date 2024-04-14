@@ -54,7 +54,6 @@ body {
     display: flex;
 }
 
-
 .web_name {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
@@ -74,6 +73,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    margin-left: 10px;
 }
 
 .web_image {
@@ -115,8 +115,8 @@ body {
 }
 
 .div_b_learn{
-    margin-top: 40px;
-    margin-right: 850px;
+    margin-top: -10px;
+    margin-right: 880px;
 }
 
 .web_line {
@@ -183,6 +183,14 @@ body {
     margin: auto; /* Centrar el contenido */
     text-align: center;
     font-weight: 500;
+}
+
+.info-masinfo{
+    margin-left: 200px;
+}
+
+.info-masinfo2{
+    margin-left: 200px;
 }
 
 .button_segment_2,
@@ -299,13 +307,46 @@ footer {
 }
 
 /* Estilos para pantallas medianas */
-@media only screen and (max-width: 1023px) {
+@media only screen and (min-width: 696px) and (max-width: 824px) {
     .logo {
         width: 50%;
-        margin-left: 25%;
+        margin-left: 10%;
     }
     .web_name {
         font-size: 40px;
+    }
+
+    .button-container{
+        margin-right: 130px;
+    }
+
+    .start {
+        flex-direction: column;
+        
+    }
+
+    .clothing_img {
+        margin-left: 70px;
+        margin-top: 70px;
+        width: 100%; /* Utilizando un ancho del 100% para que sea más responsive */
+        height: 50%; /* Para mantener la proporción de la imagen */
+        max-width: 80%; /* Asegurando que la imagen no se desborde */
+    }
+
+    .div_b_learn{
+        margin-top: 100px;
+        margin-left: 40%;
+    }
+
+    .info-masinfo{
+        height: 100px;
+    }
+    
+    .info-masinfo2{
+        width: 10px;
+    }
+    .b_lear_more {
+        margin-left: 5%
     }
 }
 
@@ -313,6 +354,7 @@ footer {
 @media only screen and (max-width: 768px) {
     .start {
         flex-direction: column;
+        
     }
     .b_lear_more {
         margin-left: 5%
@@ -338,4 +380,21 @@ footer {
         max-width: 80%; /* Asegurando que la imagen no se desborde */
     }
     
+    .logo{
+        margin-left: 10px;
+    }
+
+    .button-container{
+        margin-right: 180px;
+    }
+
+    .info-masinfo{
+        height: 100px;
+    }
+    
+    .info-masinfo2{
+        width: 10px;
+    }
+
+   
 }
