@@ -1,0 +1,90 @@
+.singin-logo {
+    width: 500px;
+    height: 500px;
+    margin-top: 0px;
+}
+
+.singin-input-box {
+    background-color: #FDFBF0;
+    border-radius: 45px;
+    width: 80%;
+    height: 60px;
+    margin: 20px;
+    font-size: 32px;
+    text-align: left;
+}
+
+.singin-button {
+    background-color: #FDFBF0;
+    border-radius: 45px;
+    width: 55%;
+    height: 60px;
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.singin-box {
+    background-color: #006973;
+    text-align: center;
+    border-radius: 23px;
+    margin-right: 33%;
+    margin-left: 33%;
+    margin-bottom: 100px;
+}
+
+/* Estilos para pantallas pequeñas (celulares) */
+@media only screen and (max-width: 695px) {
+    .singin-logo {
+        width: 100%;
+        height: auto;
+        max-width: 695px; /* Asegurando que el logo no se desborde */
+        max-height: 824px; /* Asegurando que el logo no se desborde */
+        margin-top: 20px; /* Ajuste para espacio superior */
+    }
+    .singin-input-box,
+    .singin-button {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .singin-input-box {
+        height: 40px; /* Reduciendo la altura para ajustar en pantallas pequeñas */
+        font-size: 20px; /* Reduciendo el tamaño del texto para ajustar en pantallas pequeñas */
+    }
+    .singin-button {
+        height: 50px; /* Ajustando la altura del botón */
+        font-size: 20px; /* Reduciendo el tamaño del texto para ajustar en pantallas pequeñas */
+    }
+    .singin-box {
+        border-radius: 10px; /* Reduciendo la curvatura de los bordes para ajustar en pantallas pequeñas */
+        margin: 20px; /* Ajustando el margen para dar espacio en pantallas pequeñas */
+    }
+}
+
+/* Estilos para pantallas medianas (tablets) */
+@media only screen and (min-width: 696px) and (max-width: 824px) {
+    .singin-logo {
+        width: 70%;
+        height: auto;
+        max-width: 695px; /* Asegurando que el logo no se desborde */
+        max-height: 824px; /* Asegurando que el logo no se desborde */
+        margin-top: 20px; /* Ajuste para espacio superior */
+    }
+    .singin-input-box,
+    .singin-button {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .singin-input-box {
+        height: 50px; /* Ajustando la altura del campo de entrada */
+        font-size: 24px; /* Ajustando el tamaño del texto para pantallas medianas */
+    }
+    .singin-button {
+        height: 60px; /* Ajustando la altura del botón */
+        font-size: 28px; /* Ajustando el tamaño del texto para pantallas medianas */
+    }
+    .singin-box {
+        border-radius: 15px; /* Aumentando la curvatura de los bordes para pantallas medianas */
+        margin: 50px auto; /* Ajustando el margen para centrar en pantallas medianas */
+    }
+}
