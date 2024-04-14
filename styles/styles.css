@@ -298,19 +298,6 @@ footer {
     height: 50px;
 }
 
-/* Estilos para pantallas grandes */
-@media only screen and (min-width: 1024px) {
-    .b_collaboration,
-    .b_about_us,
-    .b_sign_in {
-        width: 15%;
-        font-size: 18px;
-    }
-    .logo {
-        margin-left: 10%;
-    }
-}
-
 /* Estilos para pantallas medianas */
 @media only screen and (max-width: 1023px) {
     .logo {
